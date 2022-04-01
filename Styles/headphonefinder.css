@@ -1,0 +1,622 @@
+ /* NAVBAR CSS STARTS */
+
+ *{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+}
+#navbar{
+    top:0;
+    position: sticky;
+    display: flex;
+    justify-content: space-around;
+    background-color:#f9f9f9;
+    margin: auto;
+    padding-top: 23px;
+    padding-bottom: 28px;
+    
+}
+#navbar2{
+    display: flex;
+    justify-content: space-around;
+    background-color:#f9f9f9;
+    height:34px;
+    width:1270px;
+    
+}
+#navbar2>div{
+    justify-content: space-between;
+    
+}
+.headphonezonelogo img{
+    width:150px;
+    height: 40px;
+    margin-top: -2px;
+    margin-left: -8px;
+    
+}
+.menu-bar{
+    background: #f9f9f9;
+    text-align: center;
+    padding-left: 100px;
+    padding-top: 7px;
+}
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+    color:#444444;
+    width:780px;
+    height:35px;
+    
+
+}
+.menu-bar ul li{
+    color: #444444;
+   font-size: 14px;
+   font-family: Roboto, sans-serif;
+   line-height: 24px;
+   font-weight: bold;
+   margin-right:28px;
+}
+.menu-bar ul li a {
+    text-decoration: none;
+    color:#444444;
+}
+.active:hover{
+    
+    border-radius: 3px;
+}
+.sub-menu-1{
+    display: none;
+    
+}
+.sub-menu-1 ul> div{
+    height:250px;
+    width:200px;
+    margin-right: 0px;
+    box-sizing: border-box;
+    
+}
+.menu-bar ul li:hover .sub-menu-1{
+    display: block;
+    position: absolute;
+    margin-top: 31px;
+}
+.menu-bar-2{
+    height:33px;
+    width:300px;
+}
+.menu-bar-2 ul li{
+    display: inline-flex;
+    list-style: none;
+    padding-top: 7px;
+    padding-left: 30px;
+    
+}
+.menu-bar-2 ul li a{
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Roboto, sans-serif;
+    line-height: 24px;
+    font-weight: bold;
+    color:#444444;
+}
+.sub-menu-1 ul div{
+    text-align: left;
+    padding-top: 50px;
+}
+.sub-menu-1 ul div h4{
+    padding-bottom: 10px;
+    
+}
+.sub-menu-1 ul>div{
+    margin-left: 210px;
+    margin-right: -200px;
+    
+}
+.sub-menu-1 ul{
+    height:300px;
+    width:1368px;
+    margin-left: -455px;
+    background-color: white;
+}
+.sub-menu-2{
+    display: none;
+}
+.menu-bar ul li:hover .sub-menu-2{
+    display: block;
+    position: absolute;
+    margin-top: 31px;
+}
+.sub-menu-2 ul div{
+    text-align: left;
+    padding-top: 50px;
+}
+.sub-menu-2 ul div h4{
+    padding-bottom: 10px;
+    
+}
+.sub-menu-2 ul>div{
+    margin-left: 210px;
+    margin-right: -200px;
+    padding-right: 70px;   
+}
+.sub-menu-2 ul{
+    height:300px;
+    width:1400px;
+    margin-left: -655px;
+    background-color: white;
+}
+.sub-menu-3{
+    display: none;
+}
+.menu-bar ul li:hover .sub-menu-3{
+    display: block;
+    position: absolute;
+    margin-top: 31px;
+}
+.sub-menu-3 ul div{
+    text-align: left;
+    padding-top: 50px;
+}
+.sub-menu-3 ul div h4{
+    padding-bottom: 10px;
+    
+}
+.sub-menu-3 ul>div{
+    margin-left: 210px;
+    margin-right: -200px;
+    padding-right: 70px;   
+}
+.sub-menu-3 ul{
+    padding-right: 200px;
+    height:400px;
+    width:1460px;
+    margin-left: -655px;
+    background-color: white;
+    overflow: scroll;
+}
+.sub-menu-4{
+    display: none;
+}
+.menu-bar ul li:hover .sub-menu-4{
+    display: block;
+    position: absolute;
+    margin-top: 31px;
+}
+.sub-menu-4 ul div{
+    text-align: left;
+    padding-top: 50px;
+}
+.sub-menu-4 ul div img:nth-child(1){
+    height: 120px;
+    width:180px;
+    display: flex;
+    margin: auto;
+    margin-left: 45px;
+}
+.sub-menu-4 ul div:nth-child(1){
+    height: auto;
+    width:280px;
+    box-sizing: border-box;
+}
+.sub-menu-4 ul div:nth-child(1) h4{
+    margin-top: 20px;
+    text-align: center;
+    box-sizing: border-box;
+    margin-left: 10px;
+}
+.sub-menu-4 ul div:nth-child(1) p{
+    text-align: center;
+    width:200px;
+    margin-left: 30px;
+}
+.sub-menu-4 ul>div{
+    margin-left: 240px;
+    margin-right: -200px;
+    padding-right: 30px;   
+}
+.sub-menu-4 ul{
+    padding-right: 200px;
+    height:400px;
+    width:1460px;
+    margin-left: -955px;
+    background-color: white;
+    overflow: scroll;
+}
+.sub-menu-5{
+    display: none;
+}
+.menu-bar ul li:hover .sub-menu-5{
+    display: block;
+    position: absolute;
+    margin-top: 31px;
+}
+.sub-menu-5 ul div{
+    text-align: left;
+    padding-top: 50px;
+    height:auto;
+    width:200px;
+    margin-left: 50px;
+
+}
+.sub-menu-5 ul div h4{
+    padding-bottom: 10px;
+    
+}
+.sub-menu-5 ul div:nth-child(5){
+    margin-left: 280px;
+}
+.sub-menu-5 ul div:nth-child(9){
+    margin-left: 480px;
+    height:100px;
+    width:230px;
+    text-align: center;
+    margin-top: -50px;
+}
+.sub-menu-5 ul div:nth-child(9) h4{
+    width:150px;
+    text-align: center;
+    margin-left: 37px;
+    line-height: 15px;
+}
+.sub-menu-5 ul div:nth-child(9) p{
+    margin-top: -5px;
+    line-height: 15px;
+}
+.sub-menu-5 ul div:nth-child(5) img{
+    border-radius: 5px;
+}
+.sub-menu-5 ul{
+    display: grid;
+    grid-template-columns: repeat(5,200px);
+    grid-template-rows: repeat(2,200px);
+    height:400px;
+    width:1400px;
+    padding-left: 0px;
+    margin-left: -682px;
+    background-color: white;
+}
+.menu-bar ul li:hover{
+    text-decoration: underline;
+}
+
+/* NAVBAR CSS ENDS */
+
+/* SEARCH POPSIDE WINDOW STARTS */
+
+#searchpopside{
+    height:100%;
+    position:fixed;
+    right:0;
+    top:0;
+    width:0px;
+    overflow-x: hidden;
+    background-color: white;
+    transition: all 0.1s;
+}
+#searchclick{
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 14px;
+   font-family: Roboto, sans-serif;
+   line-height: 24px;
+   font-weight: bold;
+   color:#444444;
+}
+#search{
+    height:86px;
+    padding-left: 50px;
+    padding-top: 35px;
+}
+#search i:nth-child(2){
+    margin-left: 20px;
+}
+#search i{
+    height: 25px;
+    width:25px;
+    background-color: white;
+}
+#search input{
+    border: 0;
+    padding:10px;
+    padding-right: 130px;
+}
+#closethepopside{
+    cursor: pointer;
+    height:200px;
+}
+#cartpopside{
+    height:100%;
+    position:fixed;
+    right:0;
+    top:0;
+    width:0px;
+    overflow-x: hidden;
+    background-color: white;
+    transition: all 0.1s;
+}
+#cartclick{
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 14px;
+   font-family: Roboto, sans-serif;
+   line-height: 24px;
+   font-weight: bold;
+   color:#444444;
+}
+#search img{
+    height:15px;
+    width:15px;
+}
+#search img:nth-child(2){
+    height:20px;
+    width:20px;
+}
+#searchpopside div hr{
+    margin-top: -2px;
+}
+/* SEARCH POPSIDE WINDOW STARTS */
+
+/* CART POPSIDE WINDOW CSS STARTS */ 
+#cart2{
+    display: flex;
+    height:86px;
+    padding-left: 50px;
+    padding-top: 35px;
+}
+#cart2 i{
+    margin-left: 0px;
+}
+#cart2 h3{
+    margin-left: 20px;
+    margin-right: 260px;
+    color: #444444;
+}
+#closethecartpopside{
+    margin-top: 3px;
+    cursor: pointer;
+    height:15px;
+    width:15px;
+}
+#startshopping{
+     height:50px;
+    width:190px;
+    border-radius: 30px;
+    background-color:  #3c07ff;
+    margin-top: 25px;
+    color: white;
+    border: none;
+    display: block;
+    margin: auto;
+}
+#cart2 img:nth-child(1){
+    height:20px;
+    width:20px;
+}
+#cart2innerbox{
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 25px;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color:#444444;
+}
+#cartpopside div hr{
+    margin-top: -2px;
+}
+
+/* CART POPSIDE WINDOW CSS ENDS */
+
+/* HEADPHONEFINERDIV WINDOW CSS STARTS */
+#headphonefinderdiv{
+    display: flex;
+}
+#headphonefinderdiv h1{
+    margin-top: 100px;
+    font-family: "Zurich Extended",sans-serif;
+    font-size: 42px;
+    line-height: 50px;
+    margin-left: 50px;
+    color: #444444;
+
+}
+#headphonefinderdiv p{
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    margin-left: 50px;
+    color: #444444;
+    margin-top: 20px;
+}
+#headphonefinderdiv button{
+    margin-left: 50px;
+    margin-top: 30px;
+    border: 0;
+    background-color: #3c07ff;
+    padding: 20px 40px;
+    border-radius: 30px;
+    color:white;
+    cursor: pointer;
+}
+#headphonefinderdiv img{
+    width:676px;
+}
+
+/* HEADPHONEFINERDIV WINDOW CSS ENDS */
+
+/* FOOTER CSS STARTS FROM HERE */
+
+*{
+   
+   font-family: Roboto,sans-serif ;;
+}
+#mainbox{
+   
+   /* margin-top: auto; */
+   
+}
+#footer{
+   
+   /* align-items: flex-end; */
+}
+#square1{
+   padding-top: 50px;
+   display: flex;
+   justify-content: space-around;
+}
+#bewareoffakes{
+   width:325px;
+   height:240.63px;
+}
+#footer{
+   background-color: #f9f9f9;
+   height:548.92px ;
+   width:100%;
+}
+#square1>div>p{
+   font-size: 14px;
+   line-height: 29px;
+}
+#follow{
+   display: flex;
+}
+#follow>div{
+   border: 0.1px solid #c0bebe;
+   height:55px;
+   width: 55px;
+   display: flex;
+}
+p:first-child{
+   font-weight: bold;
+   padding-bottom: 15px;
+   
+}
+#follow div i {
+   height:55px;
+   width: 55px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+#follow div:hover {
+   color:white;
+   background-color: black;
+   transition: cubic-bezier();
+}
+#square2 img{
+   display: flex;
+   margin: auto;
+   padding-top: 20px;
+}
+hr{
+   margin-top: 23px;
+}
+#square3{
+   text-align: center;
+   font-size: 14px;
+   line-height: 25px;
+   padding-bottom: 30px;
+   padding-top: 9px;
+}
+
+/* FOOTER CSS ENDS HERE */
+
+@media all and (min-width: 401px) and (max-width: 720px){
+            
+    *{
+        margin:0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Roboto, sans-serif;
+        
+    }
+    #navbar{
+        top:0;
+        position: sticky;
+        background-color:#f9f9f9;
+        margin: auto;
+        padding-top: 23px;
+        padding-bottom: 28px;
+        z-index: 1;
+        width:100%;
+        
+    }
+    #navbar2{
+        display: flex;
+        justify-content: space-around;
+        background-color:#f9f9f9;
+        height:34px;
+        width:1270px;
+        
+    }
+    #navbar2>div{
+        justify-content: space-between;
+       
+        
+    }
+    .headphonezonelogo img{
+        width:150px;
+        height: 40px;
+        margin-top: -2px;
+        margin-left: -8px;
+        
+    }
+    .menu-bar{
+        display: none;
+    }
+    .menu-bar-2{
+        display: none;
+    }
+    }
+
+    @media all and (min-width: 81px) and (max-width: 400px){
+
+        *{
+            margin:0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Roboto, sans-serif;
+            
+        }
+        #navbar{
+            top:0;
+            position: sticky;
+            background-color:#f9f9f9;
+            margin: auto;
+            padding-top: 23px;
+            padding-bottom: 28px;
+            z-index: 1;
+            width:100%;
+            
+        }
+        #navbar2{
+            display: flex;
+            justify-content: space-around;
+            background-color:#f9f9f9;
+            height:34px;
+            width:1270px;
+            
+        }
+        #navbar2>div{
+            justify-content: space-between;
+           
+            
+        }
+        .headphonezonelogo img{
+            width:150px;
+            height: 40px;
+            margin-top: -2px;
+            margin-left: -8px;
+            
+        }
+        .menu-bar{
+            display: none;
+        }
+        .menu-bar-2{
+            display: none;
+        }
+     
+    }

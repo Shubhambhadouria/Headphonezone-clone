@@ -1,0 +1,924 @@
+
+        /* NAVBAR CSS STARTS */
+
+        *{
+            /* position:relative; */
+            margin:0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Roboto, sans-serif;
+            margin-right: 0%;
+        }
+        #navbar{
+            top:0;
+            position: sticky;
+            display: flex;
+            justify-content: space-around;
+            background-color:#f9f9f9;
+            margin: auto;
+            padding-top: 23px;
+            padding-bottom: 28px;
+            z-index: 1;
+        }
+        #navbar2{
+            display: flex;
+            justify-content: space-around;
+            background-color:#f9f9f9;
+            height:34px;
+            width:1270px;
+            
+        }
+        #navbar2>div{
+            justify-content: space-between;
+            
+        }
+        .headphonezonelogo img{
+            width:150px;
+            height: 40px;
+            margin-top: -2px;
+            margin-left: -8px;
+            
+        }
+        .menu-bar{
+            background: #f9f9f9;
+            text-align: center;
+            padding-left: 100px;
+            padding-top: 7px;
+        }
+        .menu-bar ul{
+            display: inline-flex;
+            list-style: none;
+            color:#444444;
+            width:780px;
+            height:35px;
+            
+
+        }
+        .menu-bar ul li{
+            color: #444444;
+           font-size: 14px;
+           font-family: Roboto, sans-serif;
+           line-height: 24px;
+           font-weight: bold;
+           margin-right:28px;
+        }
+        .menu-bar ul li a {
+            text-decoration: none;
+            color:#444444;
+        }
+        .active:hover{
+            
+            border-radius: 3px;
+        }
+        .sub-menu-1{
+            display: none;
+            
+        }
+        .sub-menu-1 ul> div{
+            height:250px;
+            width:200px;
+            margin-right: 0px;
+            box-sizing: border-box;
+            
+        }
+        .menu-bar ul li:hover .sub-menu-1{
+            display: block;
+            position: absolute;
+            margin-top: 31px;
+        }
+        .menu-bar-2{
+            height:33px;
+            width:300px;
+        }
+        .menu-bar-2 ul li{
+            display: inline-flex;
+            list-style: none;
+            padding-top: 7px;
+            padding-left: 30px;
+            
+        }
+        .menu-bar-2 ul li a{
+            text-decoration: none;
+            font-size: 14px;
+            font-family: Roboto, sans-serif;
+            line-height: 24px;
+            font-weight: bold;
+            color:#444444;
+        }
+        .sub-menu-1 ul div{
+            text-align: left;
+            padding-top: 50px;
+        }
+        .sub-menu-1 ul div h4{
+            padding-bottom: 10px;
+            
+        }
+        .sub-menu-1 ul>div{
+            margin-left: 210px;
+            margin-right: -200px;
+            
+        }
+        .sub-menu-1 ul{
+            height:300px;
+            width:1368px;
+            margin-left: -455px;
+            background-color: white;
+        }
+        .sub-menu-2{
+            display: none;
+        }
+        .menu-bar ul li:hover .sub-menu-2{
+            display: block;
+            position: absolute;
+            margin-top: 31px;
+            
+        }
+        .sub-menu-2 ul div{
+            text-align: left;
+            padding-top: 50px;
+        }
+        .sub-menu-2 ul div h4{
+            padding-bottom: 10px;
+            
+        }
+        .sub-menu-2 ul>div{
+            margin-left: 210px;
+            margin-right: -200px;
+            padding-right: 70px;   
+        }
+        .sub-menu-2 ul{
+            height:300px;
+            width:1400px;
+            margin-left: -655px;
+            background-color: white;
+        }
+        .sub-menu-3{
+            display: none;
+        }
+        .menu-bar ul li:hover .sub-menu-3{
+            display: block;
+            position: absolute;
+            margin-top: 31px;
+        }
+        .sub-menu-3 ul div{
+            text-align: left;
+            padding-top: 50px;
+        }
+        .sub-menu-3 ul div h4{
+            padding-bottom: 10px;
+            
+        }
+        .sub-menu-3 ul>div{
+            margin-left: 210px;
+            margin-right: -200px;
+            padding-right: 70px;   
+        }
+        .sub-menu-3 ul{
+            padding-right: 200px;
+            height:400px;
+            width:1460px;
+            margin-left: -655px;
+            background-color: white;
+            overflow: scroll;
+        }
+        .sub-menu-4{
+            display: none;
+        }
+        .menu-bar ul li:hover .sub-menu-4{
+            display: block;
+            position: absolute;
+            margin-top: 31px;
+        }
+        .sub-menu-4 ul div{
+            text-align: left;
+            padding-top: 50px;
+        }
+        .sub-menu-4 ul div img:nth-child(1){
+            height: 120px;
+            width:180px;
+            display: flex;
+            margin: auto;
+            margin-left: 45px;
+        }
+        .sub-menu-4 ul div:nth-child(1){
+            height: auto;
+            width:280px;
+            box-sizing: border-box;
+        }
+        .sub-menu-4 ul div:nth-child(1) h4{
+            margin-top: 20px;
+            text-align: center;
+            box-sizing: border-box;
+            margin-left: 10px;
+        }
+        .sub-menu-4 ul div:nth-child(1) p{
+            text-align: center;
+            width:200px;
+            margin-left: 30px;
+        }
+        .sub-menu-4 ul>div{
+            margin-left: 240px;
+            margin-right: -200px;
+            padding-right: 30px;   
+        }
+        .sub-menu-4 ul{
+            padding-right: 200px;
+            height:400px;
+            width:1460px;
+            margin-left: -955px;
+            background-color: white;
+            overflow: scroll;
+        }
+        .sub-menu-5{
+            display: none;
+        }
+        .menu-bar ul li:hover .sub-menu-5{
+            display: block;
+            position: absolute;
+            margin-top: 31px;
+        }
+        .sub-menu-5 ul div{
+            text-align: left;
+            padding-top: 50px;
+            height:auto;
+            width:200px;
+            margin-left: 50px;
+
+        }
+        .sub-menu-5 ul div h4{
+            padding-bottom: 10px;
+            
+        }
+        .sub-menu-5 ul div:nth-child(5){
+            margin-left: 280px;
+        }
+        .sub-menu-5 ul div:nth-child(9){
+            margin-left: 480px;
+            height:100px;
+            width:230px;
+            text-align: center;
+            margin-top: -50px;
+        }
+        .sub-menu-5 ul div:nth-child(9) h4{
+            width:150px;
+            text-align: center;
+            margin-left: 37px;
+            line-height: 15px;
+        }
+        .sub-menu-5 ul div:nth-child(9) p{
+            margin-top: -5px;
+            line-height: 15px;
+        }
+        .sub-menu-5 ul div:nth-child(5) img{
+            border-radius: 5px;
+        }
+        .sub-menu-5 ul{
+            display: grid;
+            grid-template-columns: repeat(5,200px);
+            grid-template-rows: repeat(2,200px);
+            height:400px;
+            width:1400px;
+            padding-left: 0px;
+            margin-left: -682px;
+            background-color: white;
+        }
+        .menu-bar ul li:hover{
+            text-decoration: underline;
+        }
+
+        /* NAVBAR CSS ENDS */
+
+        /* SEARCH POPSIDE WINDOW STARTS */
+
+        #searchpopside{
+            height:100%;
+            position:fixed;
+            right:0;
+            top:0;
+            width:0px;
+            overflow-x: hidden;
+            background-color: white;
+            transition: all 0.1s;
+        }
+        #searchclick{
+            cursor: pointer;
+            text-decoration: none;
+            font-size: 14px;
+           font-family: Roboto, sans-serif;
+           line-height: 24px;
+           font-weight: bold;
+           color:#444444;
+        }
+        #search{
+            height:86px;
+            padding-left: 50px;
+            padding-top: 35px;
+        }
+        #search i:nth-child(2){
+            margin-left: 20px;
+        }
+        #search i{
+            height: 25px;
+            width:25px;
+            background-color: white;
+        }
+        #search input{
+            border: 0;
+            padding:10px;
+            padding-right: 130px;
+        }
+        #closethepopside{
+            cursor: pointer;
+            height:200px;
+        }
+        #cartpopside{
+            height:100%;
+            position:fixed;
+            right:0;
+            top:0;
+            width:0px;
+            overflow-x: hidden;
+            background-color: white;
+            transition: all 0.1s;
+        }
+        #cartclick{
+            cursor: pointer;
+            text-decoration: none;
+            font-size: 14px;
+           font-family: Roboto, sans-serif;
+           line-height: 24px;
+           font-weight: bold;
+           color:#444444;
+        }
+        #search img{
+            height:15px;
+            width:15px;
+        }
+        #search img:nth-child(2){
+            height:20px;
+            width:20px;
+        }
+        #searchpopside div hr{
+            margin-top: -2px;
+        }
+        #searchpopside{
+            z-index: 1;
+        }
+        /* SEARCH POPSIDE WINDOW STARTS */
+
+        /* CART POPSIDE WINDOW CSS STARTS */ 
+        #cart2{
+            display: flex;
+            height:86px;
+            padding-left: 50px;
+            padding-top: 35px;
+            position: absolute;
+        }
+        #cart2 i{
+            margin-left: 0px;
+        }
+        #cart2 h3{
+            margin-left: 20px;
+            margin-right: 260px;
+            color: #444444;
+        }
+        #closethecartpopside{
+            margin-top: 3px;
+            cursor: pointer;
+            height:15px;
+            width:15px;
+        }
+        #startshopping{
+             height:50px;
+            width:190px;
+            border-radius: 30px;
+            background-color:  #3c07ff;
+            margin-top: 25px;
+            color: white;
+            border: none;
+            display: block;
+            margin: auto;
+            cursor: pointer;
+        }
+        #cart2 img:nth-child(1){
+            height:20px;
+            width:20px;
+        }
+        #cart2innerbox{
+            text-align: center;
+            margin-top: 200px;
+            margin-bottom: 25px;
+            font-family: Roboto, sans-serif;
+            font-size: 14px;
+            line-height: 24px;
+            color:#444444;
+        }
+        #cartpopside div hr{
+            margin-top: -2px;
+        }
+        #cartpopside{
+            z-index: 1;
+        }
+        #cartpopside div a{
+            text-decoration: none;
+        }
+
+        /* CART POPSIDE WINDOW CSS STARTS */
+
+        /* IMAGE SLIDER CSS STARTS FROM HERE */
+
+        figure img{
+            width:20%;
+        }
+        #slider{
+            overflow: hidden;
+        }
+        #slider figure{
+            position: relative;
+            width:500%;
+            margin:0;
+            left:0;
+            animation: 20s slider infinite;
+        }
+        @keyframes slider {
+            0%{
+                left:0;
+            }
+            20%{
+                left:-100%;
+            }
+            40%{
+                left:-200%;
+            }
+        }
+        /* IMAGE SLIDER CSS ENDS HERE */
+
+        /*AUDIOPHILE CSS STARTS FROM HERE */
+
+        #audiophile img{
+            display: flex;
+            margin: auto;
+            padding-bottom: 40px;
+        }
+        #audiophile h3{
+            text-align: center;
+            font-size: 28px;
+            line-height: 30px;
+            font-family: "Zurich Extended", sans-serif;
+            padding-bottom: 20px;
+            margin:0px 0px 24px;
+            
+        }
+        #audiophile p{
+            width:68%;
+            text-align: center;
+            box-sizing: border-box;
+            margin: auto;
+            line-height: 25px;
+            font-size: 14px;
+            color:#444444;
+            
+        }
+
+        /*AUDIOPHILE CSS ENDS HERE */
+
+        /*VIDEOPART CSS STARTS FROM HERE */
+        
+        iframe{
+            height:700px;
+            width: 100%;
+        }
+
+        /*VIDEOPART CSS ENDS HERE */
+
+        /*SIMPLBOX CSS STARTS FROM HERE */
+
+        #simplbox{
+            display: flex;
+            align-items: center;
+            height: 510.8px;
+            width:95%;
+            margin: auto;
+            background-color: #f9f9f9;
+            margin-top: 50px;
+            padding-top: 100px;
+        }
+        #simplbox>div:first-child{
+            display: flex;
+            height: 382.2px;
+            width:600px;
+            margin: auto;
+            align-items: center;
+            justify-content: center;
+        }
+        #simplbox>div:nth-child(2){
+           
+            height: 382.2px;
+            width:580px;
+            margin: auto;
+            padding-top: 60px;
+            
+        }
+        #simplbox div img{
+            
+            height: 490px;
+            width:490px;
+            
+        }
+        #simplbox div h5{
+            line-height: 30px;
+            color: #444444;
+            
+        }
+        #simplbox div h1{
+            padding-top: 20px;
+            line-height: 30px;
+            color: #444444;
+            
+        }
+        #simplbox div p{
+            color: #444444;
+            line-height: 24px;
+            font-size: 14px;
+        }
+        #simplbox>div :nth-child(3){
+            padding-top: 25px;
+            
+        }
+        #simplbox>div :nth-child(6){
+            padding-top: 25px;
+            
+        }
+
+        /*SIMPLBOX CSS ENDS HERE */
+
+        #charttopping{
+            text-align: center;
+            padding: 50px;
+            color: #444444;
+        }
+
+        /* HEADPHONEFINDER CSS STARTS FROM HERE */
+
+        #headphonefinder{
+            height:976px;
+            width:100%;
+            display: flex;
+            
+        }
+        .card{
+            background-color: #e6e6e6;
+            height: 640px;
+            width:477px;
+            
+        }
+        .cardimage{
+            height: 480px;
+            width:480px;
+            border-radius: 8px;
+            margin-left: 109px;
+            margin-top: 80px;
+            
+        }
+        #welcome{
+            width:580px;
+            margin-top: 166px;
+            margin-left: 187px;
+        }
+        #welcome h1{
+            font-family: "Zurich Extended", sans-serif;
+            font-stretch:ultra-expanded;
+            color:#444444;
+            font-size: 32px;
+            line-height: 36px;
+        }
+        #welcome p{
+            font-family: Roboto, sans-serif;
+            line-height: 24px;
+            font-size: 14px;
+            color: #444444;
+            padding-top: 24px;
+        }
+        #welcome button{
+            margin-top: 33px;
+            width: 160px;
+            border: none;
+            padding:19px;
+            border-radius: 30px;
+            font-weight: bolder;
+            color: white;
+            background-color: #3c07ff;
+            
+        }
+
+
+        /* HEADPHONEFINDER CSS ENDS HERE */
+
+        /* HOMETOWORLDSFINESTBRANDS CSS STARTS FROM HERE */
+
+        #hometoworldsfinestbrands{
+            height:563px;
+            width:100%;
+            background-color: #e6e6e6;
+            margin-top: -256px;
+            
+        }
+        #hometoworldsfinestbrands h2{
+            font-family: Roboto, sans-serif;
+            font-size: 12px;
+            color:#444444;
+            text-align: center;
+            line-height: 15px;
+            padding-top: 80px;
+        }
+        #hometoworldsfinestbrands h1{
+            font-family: Roboto, sans-serif;
+            font-size: 28px;
+            color:#444444;
+            text-align: center;
+            line-height: 30px;
+            margin-top: 24px;
+        }
+        #hometoworldsfinestbrands>div{
+            padding-top: 32px;
+            display: grid;
+            grid-template-columns: repeat(8,150px);
+            grid-template-rows: repeat(3,100px);
+            margin: auto;
+            justify-content: center;
+        }
+        #hometoworldsfinestbrands>div>div{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+        }
+        #hometoworldsfinestbrands button{
+            margin-top: 33px;
+            width: 134px;
+            border: none;
+            padding:19px;
+            border-radius: 30px;
+            font-weight: bolder;
+            color: #444444;
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            margin: auto;
+        }
+
+         /* HOMETOWORLDSFINESTBRANDS CSS STARTS FROM HERE */
+
+         /* HEADPHONEZONEEXPERIENCE CSS STARTS FROM HERE */
+
+        #headphonezoneexperience{
+            padding-top: 82px;
+            height: 700px;
+            width:100%;
+            margin: auto;
+            display: flex;
+            justify-content: flex-end;
+            margin-bottom: 100px;
+        }
+        #card2{
+            background-color: #e6e6e6;
+            height: 658px;
+            width:828px;
+            display: flex;
+            
+         }
+         #card2image{
+            width: 501px;
+            height: 499px;
+            border-radius: 8px;
+            margin-top: 82px;
+            margin-left: -378px;
+         }
+         #card2 div{
+             height:;
+             width:570px;
+         }
+         #card2 div h6{
+             padding-top: 187px;
+             font-family: Roboto, sans-serif;;
+             font-size: 12px;
+             line-height: 15px;
+             color: #444444;
+             padding-left: 70px;
+         }
+         #card2 div h1{
+             padding-top: 34px;
+             color: #444444;
+             padding-left: 70px;
+             font-family: "Zurich Extended", sans-serif;
+             font-size: 32px;
+             line-height: 36px;
+
+         }
+         #card2 div p{
+             padding-top: 39px;
+             color: #444444;
+             padding-left: 70px;
+             font-family: Roboto, sans-serif;
+             font-size: 14px;
+             line-height: 24px;
+
+         }
+         #card2 div button{
+            margin-top: 33px;
+            width: 160px;
+            border: none;
+            padding:19px;
+            border-radius: 30px;
+            font-weight: bolder;
+            color: white;
+            background-color: #3c07ff;
+            margin-left: 70px;
+         }
+
+         /* HEADPHONEZONEEXPERIENCE CSS ENDS HERE */
+
+
+
+
+
+
+
+
+
+
+
+
+         /* FOOTER CSS STARTS FROM HERE */
+
+        *{
+           
+           font-family: Roboto,sans-serif ;;
+       }
+       #mainbox{
+           
+           /* margin-top: auto; */
+           
+       }
+       #footer{
+           
+           /* align-items: flex-end; */
+       }
+       #square1{
+           padding-top: 50px;
+           display: flex;
+           justify-content: space-around;
+       }
+       #bewareoffakes{
+           width:325px;
+           height:240.63px;
+       }
+       #footer{
+           background-color: #f9f9f9;
+           height:548.92px ;
+           width:100%;
+       }
+       #square1>div>p{
+           font-size: 14px;
+           line-height: 29px;
+       }
+       #follow{
+           display: flex;
+       }
+       #follow>div{
+           border: 0.1px solid #c0bebe;
+           height:55px;
+           width: 55px;
+           display: flex;
+       }
+       p:first-child{
+           font-weight: bold;
+           padding-bottom: 15px;
+           
+       }
+       #follow div i {
+           height:55px;
+           width: 55px;
+           display: flex;
+           align-items: center;
+           justify-content: center;
+       }
+       #follow div:hover {
+           color:white;
+           background-color: black;
+           transition: cubic-bezier();
+       }
+       #square2 img{
+           display: flex;
+           margin: auto;
+           padding-top: 20px;
+       }
+       hr{
+           margin-top: 23px;
+       }
+       #square3{
+           text-align: center;
+           font-size: 14px;
+           line-height: 25px;
+           padding-bottom: 30px;
+           padding-top: 9px;
+       }
+
+        /* FOOTER CSS ENDS HERE */
+
+        @media all and (min-width: 401px) and (max-width: 720px){
+            
+    *{
+        margin:0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Roboto, sans-serif;
+        
+    }
+    #navbar{
+        top:0;
+        position: sticky;
+        background-color:#f9f9f9;
+        margin: auto;
+        padding-top: 23px;
+        padding-bottom: 28px;
+        z-index: 1;
+        width:100%;
+        
+    }
+    #navbar2{
+        display: flex;
+        justify-content: space-around;
+        background-color:#f9f9f9;
+        height:34px;
+        width:1270px;
+        
+    }
+    #navbar2>div{
+        justify-content: space-between;
+       
+        
+    }
+    .headphonezonelogo img{
+        width:150px;
+        height: 40px;
+        margin-top: -2px;
+        margin-left: -8px;
+        
+    }
+    .menu-bar{
+        display: none;
+    }
+    .menu-bar-2{
+        display: none;
+    }
+    }
+
+    @media all and (min-width: 81px) and (max-width: 400px){
+
+        *{
+            margin:0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Roboto, sans-serif;
+            
+        }
+        #navbar{
+            top:0;
+            position: sticky;
+            background-color:#f9f9f9;
+            margin: auto;
+            padding-top: 23px;
+            padding-bottom: 28px;
+            z-index: 1;
+            width:100%;
+            
+        }
+        #navbar2{
+            display: flex;
+            justify-content: space-around;
+            background-color:#f9f9f9;
+            height:34px;
+            width:1270px;
+            
+        }
+        #navbar2>div{
+            justify-content: space-between;
+           
+            
+        }
+        .headphonezonelogo img{
+            width:150px;
+            height: 40px;
+            margin-top: -2px;
+            margin-left: -8px;
+            
+        }
+        .menu-bar{
+            display: none;
+        }
+        .menu-bar-2{
+            display: none;
+        }
+     
+    }
