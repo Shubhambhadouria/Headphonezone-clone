@@ -9,7 +9,7 @@ This Project is entirely developed by me for the construct week of Unit-2 in Mas
 Netlify Link of our Project - https://magenta-pastelito-ac6e18.netlify.app/
 
 
-## Authors
+## Author
 
 - Shubham Singh Bhadouria
 
