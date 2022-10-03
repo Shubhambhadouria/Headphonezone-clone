@@ -1,9 +1,9 @@
 
-# HEADPHONEZONE WEBSITE CLONE
+# 🎯 HEADPHONEZONE WEBSITE CLONE
 
 Headphone Zone is India's first exclusive online store for headphones, earphones and personal Audio devices featuring the world's finest headphones from brands renowned for their sound, design and style.
 
-## Project Objective
+## 💡 Project Objective
 
 This Project is entirely developed by me for the construct week of Unit-2 in Masai School.
 Netlify Link of our Project - https://magenta-pastelito-ac6e18.netlify.app/
